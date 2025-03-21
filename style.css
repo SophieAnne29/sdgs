@@ -109,3 +109,20 @@ td{
 th,td{
     padding: 16px;
 }
+#goals_details .text,.row{
+    margin: 10px;
+    padding: 10px;
+}
+#goals_details .row::after{
+    clear: both;
+    display: table;
+}
+#goals_details .column{
+    float: left;
+    width: 19%;
+    margin: 5px;
+    padding: 10px;
+    background-color: lightblue;
+    height: 445px;
+    border-radius: 15px;
+}
